@@ -18,3 +18,6 @@ def sqrt(a):
     if a < 0:
         raise ValueError("Cannot take square root of a negative number")
     return math.sqrt(a)
+
+def power(base, exp):
+    return base ** exp
